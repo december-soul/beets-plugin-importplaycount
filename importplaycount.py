@@ -54,7 +54,7 @@ def import_lastfm(self, lib, args):
 		try:
 			page = fetch_track(track.mb_trackid, api_key)
 			if "track" not in page:
-				log.error(u'not found my mbid, try search by name')
+				log.error(u'not found by mbid, try search by name')
 				page = fetch_track2(track.artist, track.title, api_key)
 			
 			if "track" in page:		
