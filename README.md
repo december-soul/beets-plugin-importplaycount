@@ -4,8 +4,6 @@
 imports playcount for each track from last.fm
 
 
-
-
 To use this plugin you need the lastfm section in your config file:
 
 config:
@@ -15,7 +13,7 @@ config:
         api_key: 12345678901234567890
 
 
-Realy nice is to create playlists with this data.
+you can create very nice playlists with this data.
 
 config:
 
@@ -37,7 +35,7 @@ config:
 
 Call it like
 
-        beet importplaycount
+    beet importplaycount
         
 Example output:
 
