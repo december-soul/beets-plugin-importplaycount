@@ -36,7 +36,20 @@ config:
 
 
 Call it like
-	beet importplaycount
+
+        beet importplaycount
+        
+Example output:
+
+    Fetching last.fm play count
+    Slayer - Bloodline:                                              change playcount from 0 to 1146236              listeners from 185435 to 185916
+    Slayer - Deviance:                                               change playcount from 0 to 388242               listeners from 88244 to 88431
+    Slayer - War Zone:                                               change playcount from 0 to 398693               listeners from 83784 to 83950
+    not found my mbid, try search by name
+    Slayer - Scarstruck:                                             change playcount from 0 to 197275               listeners from 43629 to 43681
+    importplaycount: ... done!
+
+
 
 This could take very long. depends on how many tracks you have.
 
